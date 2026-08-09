@@ -14,6 +14,10 @@ h1 {
 }
 
 .container {
+  display: grid;
+  grid-template-row: 1fr 1fr;
+  grid-template-colume: 1fr 1fr 1fr;
+  gap: 20px;
   /* Write your grid container css here */
 
 }
@@ -47,10 +51,6 @@ article p {
 
 article {
   margin: 10px;
-  display: grid;
-  grid-template-row: 1fr 1fr;
-  grid-template-colume: 1fr 1fr 1fr;
-  gap: 20px;
 }
 
 img {
