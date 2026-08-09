@@ -22,7 +22,7 @@ nav {
   background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   
   /* You may need to add some additional css to this grid item */
 
@@ -46,7 +46,11 @@ article p {
 } 
 
 article {
-    margin: 10px;
+  margin: 10px;
+  display: grid;
+  grid-template-row: 1fr 1fr;
+  grid-template-colume: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 img {
