@@ -15,9 +15,9 @@ h1 {
 
 .container {
   display: grid;
-  grid-template-row: 1fr 1fr;
-  grid-template-colume: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
   /* Write your grid container css here */
 
 }
