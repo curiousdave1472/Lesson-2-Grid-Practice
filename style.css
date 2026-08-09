@@ -26,6 +26,7 @@ nav {
   background-color: #f0f0f0;
   flex-display: column;
   grid-column: 4;
+  grid-row: 1;
   
   /* You may need to add some additional css to this grid item */
 
