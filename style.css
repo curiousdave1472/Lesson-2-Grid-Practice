@@ -17,7 +17,7 @@ h1 {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px 20px;
+  gap: 15px 15px;
   /* Write your grid container css here */
 
 }
@@ -26,7 +26,7 @@ nav {
   background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  grid-column: 4;
   
   /* You may need to add some additional css to this grid item */
 
